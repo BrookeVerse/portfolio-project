@@ -12,6 +12,10 @@ a:visited {
   color: #d7879d;
 }
 
+a:hover {
+  color: #c24a6b;
+}
+
 button {
   padding: 10px;
   margin: 10px;
@@ -21,4 +25,5 @@ button {
 
 img {
   max-width: 300px;
+  border-radius: 10px;
 }

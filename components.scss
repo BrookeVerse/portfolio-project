@@ -1,3 +1,5 @@
+/*Navigation Area*/
+
 nav {
   margin: 20px 0px;
 }
@@ -12,7 +14,22 @@ nav {
 #name {
   margin: 10px;
 }
+/*Header Area*/
+header {
+  background: #f8f0e3;
+  margin: 80px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
 
+h3 {
+  color: #c65775;
+  font-weight: 300;
+  font-size: medium;
+  text-align: left;
+}
 #headerIntro {
   display: flex;
   justify-content: center;
@@ -23,5 +40,14 @@ nav {
 
 #introToMe {
   margin: 40px;
-  padding: 40px;
+  padding: 80px;
+}
+
+#jobTitle {
+  color: #dd9aac;
+}
+
+#workButton {
+  margin: 40px;
+  float: right;
 }
