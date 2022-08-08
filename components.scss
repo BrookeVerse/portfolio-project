@@ -17,7 +17,7 @@ nav {
 /*Header Area*/
 header {
   background: #f8f0e3;
-  margin: 80px;
+  margin: 100px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
@@ -50,4 +50,26 @@ h3 {
 #workButton {
   margin: 40px;
   float: right;
+}
+
+/*Tech Area*/
+
+h2 {
+  text-align: center;
+  text-decoration: underline;
+  letter-spacing: 2px;
+  font-weight: 300;
+  color: #c65775;
+}
+
+#myTechSkills {
+  text-align: center;
+  margin-right: 140px;
+  margin-left: 140px;
+}
+
+.techLogos {
+  max-width: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
