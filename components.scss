@@ -1,5 +1,10 @@
 #navBar {
   display: flex;
-  height: 10vh;
+  height: 5vh;
   justify-content: space-between;
+  text-align: center;
+}
+
+#name {
+  margin: 10px;
 }
