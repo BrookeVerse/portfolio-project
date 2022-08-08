@@ -1,3 +1,7 @@
+nav {
+  margin: 20px 0px;
+}
+
 #navBar {
   display: flex;
   height: 5vh;
@@ -7,4 +11,17 @@
 
 #name {
   margin: 10px;
+}
+
+#headerIntro {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 20px;
+  text-align: center;
+}
+
+#introToMe {
+  margin: 40px;
+  padding: 40px;
 }
