@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+nav {
+  margin: 20px 0px;
+}
+
 #navBar {
   display: flex;
   height: 5vh;
@@ -10,9 +14,17 @@
   margin: 10px;
 }
 
-#navLinks {
-  text-decoration: none;
-  color: #d7879d;
+#headerIntro {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 20px;
+  text-align: center;
+}
+
+#introToMe {
+  margin: 40px;
+  padding: 40px;
 }
 
 * {
@@ -30,5 +42,10 @@ a:visited {
 button {
   padding: 10px;
   margin: 10px;
+  border-radius: 5px;
   background: #c24a6b;
+}
+
+img {
+  max-width: 300px;
 }
