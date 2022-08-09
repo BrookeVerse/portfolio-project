@@ -68,8 +68,10 @@ h2 {
   margin-left: 140px;
 }
 
-.techLogos {
-  max-width: 100px;
+#techLogos {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
   margin-left: 100px;
   margin-right: 100px;
 }
