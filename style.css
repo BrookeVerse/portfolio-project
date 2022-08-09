@@ -105,6 +105,13 @@ h4 {
   padding: 2px 16px;
 }
 
+/*About Me*/
+.aboutContainer {
+  display: flex;
+  width: 1782px;
+  height: 820px;
+}
+
 * {
   margin: 0;
   padding: 0;
