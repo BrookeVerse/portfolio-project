@@ -1,3 +1,5 @@
+@use "./base.scss" as *;
+
 /*Navigation Area*/
 
 .navArea {
@@ -29,7 +31,7 @@
   }
 
   & h3 {
-    color: #c65775;
+    color: $secondary-color;
     font-weight: 300;
     font-size: medium;
     text-align: left;
@@ -49,7 +51,7 @@
   }
 
   & #headerArea__intro {
-    color: #dd9aac;
+    color: $primary-color;
   }
 
   & #headerArea__button {
@@ -64,7 +66,7 @@
     text-decoration: underline;
     letter-spacing: 2px;
     font-weight: 300;
-    color: #c65775;
+    color: $secondary-color;
     margin-bottom: 60px;
   }
 
@@ -88,7 +90,7 @@
 .projectsArea {
   & h4 {
     text-align: center;
-    color: #c65775;
+    color: $primary-color;
   }
 
   & .projectsArea__flex {
@@ -114,7 +116,7 @@
     display: flex;
     width: 1782px;
     height: 820px;
-    background-color: #dd9aac;
+    background-color: $primary-color;
     text-align: center;
     flex-direction: column;
     border: 20px solid red;

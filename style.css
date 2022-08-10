@@ -1,4 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #d7879d;
+}
+
+a:hover {
+  color: #c24a6b;
+}
+
+button {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  background: #c24a6b;
+}
+
+img {
+  max-width: 300px;
+  border-radius: 10px;
+}
+
 /*Navigation Area*/
 .navArea nav {
   margin: 20px 0px;
@@ -74,7 +102,7 @@
 /*Project Area*/
 .projectsArea h4 {
   text-align: center;
-  color: #c65775;
+  color: #dd9aac;
 }
 .projectsArea .projectsArea__flex {
   display: flex;
@@ -104,32 +132,4 @@
 }
 .aboutArea .aboutArea__content {
   justify-content: center;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Roboto Condensed", sans-serif;
-}
-
-a:link,
-a:visited {
-  text-decoration: none;
-  color: #d7879d;
-}
-
-a:hover {
-  color: #c24a6b;
-}
-
-button {
-  padding: 10px;
-  margin: 10px;
-  border-radius: 5px;
-  background: #c24a6b;
-}
-
-img {
-  max-width: 300px;
-  border-radius: 10px;
 }
