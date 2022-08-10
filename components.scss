@@ -21,14 +21,12 @@
 
 /*Header Area*/
 .headerArea {
-  & header {
-    background: #f8f0e3;
-    margin: 100px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-  }
+  background: #f9eff2;
+  margin: 100px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 
   & h3 {
     color: $secondary-color;
@@ -54,22 +52,15 @@
     color: $primary-color;
   }
 
-  & #headerArea__button {
+  & #headerArea__img {
     margin: 40px;
+    border-radius: 10px;
+    max-width: 300px;
     float: right;
   }
 }
 /*Skills Area*/
 .skillsArea {
-  & h2 {
-    text-align: center;
-    text-decoration: underline;
-    letter-spacing: 2px;
-    font-weight: 300;
-    color: $secondary-color;
-    margin-bottom: 60px;
-  }
-
   & #skillsArea__body {
     text-align: center;
     padding: 20px;
@@ -87,42 +78,59 @@
   }
 }
 /*Project Area*/
-.projectsArea {
-  & h4 {
-    text-align: center;
-    color: $primary-color;
-  }
+.projectArea {
+  margin: 20px;
 
-  & .projectsArea__flex {
+  & .projectArea__flex {
     display: flex;
-    width: 200px;
+    max-width: 800px;
   }
 
   & .projectArea__card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2);
     transition: 0.3s;
-    border-radius: 5px;
+    border-radius: 10px;
+    text-align: center;
   }
+
   & .projectArea__card:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   }
-  & .projectArea__container {
-    padding: 2px 16px;
+
+  & .projectArea__content {
+    margin: 20px;
+  }
+
+  & .projectArea__button {
+    background: $primary-color;
+    float: right;
+  }
+
+  & #projectArea__img {
+    max-width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
   }
 }
+
 /*About Me*/
 .aboutArea {
   & .aboutArea__container {
-    display: flex;
-    width: 1782px;
-    height: 820px;
+    width: 100%;
+    height: 700px;
     background-color: $primary-color;
     text-align: center;
-    flex-direction: column;
     border: 20px solid red;
   }
 
-  & .aboutArea__content {
-    justify-content: center;
+  & .aboutArea__flex {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+  }
+
+  & #aboutArea__img {
+    border-radius: 10px;
   }
 }
