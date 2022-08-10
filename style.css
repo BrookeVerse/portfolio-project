@@ -1,22 +1,20 @@
-/*Navigation Area*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
-nav {
+/*Navigation Area*/
+.navArea nav {
   margin: 20px 0px;
 }
-
-#navBar {
+.navArea #navArea__flex {
   display: flex;
   height: 5vh;
   justify-content: space-between;
   text-align: center;
 }
-
-#name {
+.navArea #navArea__name {
   margin: 10px;
 }
 
 /*Header Area*/
-header {
+.headerArea header {
   background: #f8f0e3;
   margin: 100px;
   border-top-left-radius: 20px;
@@ -24,38 +22,33 @@ header {
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
 }
-
-h3 {
+.headerArea h3 {
   color: #c65775;
   font-weight: 300;
   font-size: medium;
   text-align: left;
 }
-
-#headerIntro {
+.headerArea #headerArea__flex {
   display: flex;
   justify-content: center;
   flex-direction: row;
   margin: 20px;
   text-align: center;
 }
-
-#introToMe {
+.headerArea #headerArea__intro {
   margin: 40px;
   padding: 80px;
 }
-
-#jobTitle {
+.headerArea #headerArea__intro {
   color: #dd9aac;
 }
-
-#workButton {
+.headerArea #headerArea__button {
   margin: 40px;
   float: right;
 }
 
-/*Tech Area*/
-h2 {
+/*Skills Area*/
+.skillsArea h2 {
   text-align: center;
   text-decoration: underline;
   letter-spacing: 2px;
@@ -63,15 +56,13 @@ h2 {
   color: #c65775;
   margin-bottom: 60px;
 }
-
-#myTechSkills {
+.skillsArea #skillsArea__body {
   text-align: center;
   padding: 20px;
   margin-right: 140px;
   margin-left: 140px;
 }
-
-#techLogos {
+.skillsArea #skillsArea__img {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
@@ -81,32 +72,28 @@ h2 {
 }
 
 /*Project Area*/
-h4 {
+.projectsArea h4 {
   text-align: center;
   color: #c65775;
 }
-
-.projectsFlex {
+.projectsArea .projectsArea__flex {
   display: flex;
   width: 200px;
 }
-
-.card {
+.projectsArea .projectArea__card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   border-radius: 5px;
 }
-
-.card:hover {
+.projectsArea .projectArea__card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
-
-.container {
+.projectsArea .projectArea__container {
   padding: 2px 16px;
 }
 
 /*About Me*/
-.aboutContainer {
+.aboutArea .aboutArea__container {
   display: flex;
   width: 1782px;
   height: 820px;
@@ -115,8 +102,7 @@ h4 {
   flex-direction: column;
   border: 20px solid red;
 }
-
-.bioArea {
+.aboutArea .aboutArea__content {
   justify-content: center;
 }
 

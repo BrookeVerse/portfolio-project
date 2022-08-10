@@ -10,10 +10,10 @@
   </head>
   <body>
     <!-- Navigation Area-->
-    <nav>
-      <div id="navBar">
-        <span id="name">Brooke Waldorf-Wells</span>
-        <span id="navLinks">
+    <nav class="navArea">
+      <div id="navArea__flex">
+        <span id="navArea__name">Brooke Waldorf-Wells</span>
+        <span>
           <a href="#">About</a>
           <a href="#">Projects</a>
           <button>Contact Me📧</button>
@@ -21,36 +21,39 @@
       </div>
     </nav>
     <!-- Introduction Area-->
-    <header>
-      <div id="headerIntro">
-        <span id="introToMe">
+    <header class="headerArea">
+      <div id="headerArea__flex">
+        <span id="headerArea__intro">
           <h3>👋 Hey, My name is Brooke Waldorf-Wells</h3>
-          <h1 id="jobTitle">A Software Developer, based in the UK.</h1>
+          <h1 id="headerArea__job">A Software Developer, based in the UK.</h1>
           <button>Find My Work</button>
         </span>
-        <img id="workButton" src="./images/me.jpg" alt="Picture Of Brooke" />
+        <img id="headerArea__button" src="./images/me.jpg" alt="Picture Of Brooke" />
       </div>
     </header>
 
     <main>
       <!-- What Skills I Have -->
+    <div class="skillsArea">
       <h2>Technical Skills</h2>
-      <p id="myTechSkills">
+      <p id="skillsArea__body">
         I have been working with <b>_nology</b> and gained skills using; Git,
         HTML, CSS, JavaScript and SCSS. I have used these skills to create
         projects including this portfolio.
       </p>
-      <div id="techLogos">
+      <div id="skillsArea__img">
         <img src="./images/gitVector.svg" alt="GitHub Logo" />
         <img src="./images/htmlVector.svg" alt="HTML logo" />
         <img src="./images/CSSVector.svg" alt="CSS logo" />
         <img src="./images/JavaVector.svg" alt="JavaScript" />
         <img src="./images/sassVector.svg" alt="SCSS logo" />
       </div>
+    </div>
       <!-- My Projects Area-->
+    <div class="projectsArea">
       <h2>My Projects</h2>
-      <div class="projectsFlex">
-        <div class="card">
+      <div class="projectsArea__flex">
+        <div class="projectArea__card">
           <img src="./images/NeonProject.JPG" alt="Neon Project" />
           <div class="container">
             <h4><b>Neon Lights Project</b></h4>
@@ -60,7 +63,7 @@
             </p>
           </div>
         </div>
-        <div class="card">
+        <div class="projectArea__card">
           <img src="./images/NeonProject.JPG" alt="Neon Project" />
           <div class="container">
             <h4><b>Neon Lights Project</b></h4>
@@ -70,7 +73,7 @@
             </p>
           </div>
         </div>
-        <div class="card">
+        <div class="projectArea__card">
           <img src="./images/NeonProject.JPG" alt="Neon Project" />
           <div class="container">
             <h4><b>Neon Lights Project</b></h4>
@@ -80,9 +83,9 @@
             </p>
           </div>
         </div>
-        <div class="card">
+        <div class="projectArea__card">
           <img src="./images/NeonProject.JPG" alt="Neon Project" />
-          <div class="container">
+          <div class="projectArea__container">
             <h4><b>Neon Lights Project</b></h4>
             <p>
               A small project I did with SheCodes creating a </b> small website using
@@ -91,11 +94,13 @@
           </div>
         </div>
       </div>
+    </div>
       <!-- About Me Area-->
-      <div class="aboutContainer">
+    <div class="aboutArea">
+      <div class="aboutArea__container">
         <h1>About Me</h1>
         <span>
-        <p class="bioArea">
+        <p class="aboutArea__content">
           My name is Brooke and I have been working for years in hospitality and retail for years.
           You may think that this may have nothing to do with being a developer, however. 
           I have had a lot of time to build my confidence when it comes to talking to people. 
@@ -106,6 +111,7 @@
         </p>
         </span>
       </div>
+    </div>
     </main>
     <!--Socials Area-->
     <footer>
