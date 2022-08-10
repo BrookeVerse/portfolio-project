@@ -110,6 +110,14 @@ h4 {
   display: flex;
   width: 1782px;
   height: 820px;
+  background-color: #dd9aac;
+  text-align: center;
+  flex-direction: column;
+  border: 20px solid red;
+}
+
+.bioArea {
+  justify-content: center;
 }
 
 * {
