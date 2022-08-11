@@ -156,3 +156,16 @@ h2 {
   margin: 20px;
   opacity: 60%;
 }
+
+.footerArea img {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.footerArea .footerArea__container {
+  background: #c65775;
+}
+.footerArea .footerArea__flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

@@ -148,3 +148,20 @@
     opacity: 60%;
   }
 }
+
+.footerArea {
+  & img {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  & .footerArea__container {
+    background: $secondary-color;
+  }
+
+  & .footerArea__flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
