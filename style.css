@@ -79,7 +79,6 @@ h2 {
   flex-direction: row;
   margin: 20px;
   text-align: center;
-  flex-wrap: wrap;
 }
 .headerArea #headerArea__intro {
   margin: 40px;
@@ -172,6 +171,9 @@ h2 {
   opacity: 60%;
 }
 
+.footerArea footer {
+  height: 10vh;
+}
 .footerArea img {
   margin-left: 20px;
   margin-right: 20px;

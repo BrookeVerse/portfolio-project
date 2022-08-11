@@ -41,7 +41,6 @@
     flex-direction: row;
     margin: 20px;
     text-align: center;
-    flex-wrap: wrap;
   }
 
   & #headerArea__intro {
@@ -152,6 +151,10 @@
 }
 
 .footerArea {
+  & footer {
+    height: 10vh;
+  }
+
   & img {
     margin-left: 20px;
     margin-right: 20px;
