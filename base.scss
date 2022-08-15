@@ -35,16 +35,3 @@ h2 {
   color: $secondary-color;
   margin-bottom: 60px;
 }
-
-@media screen and (max-width: 375px) {
-  .skillsArea,
-  .projectArea,
-  .aboutArea {
-    width: 100%;
-  }
-  .navArea,
-  .headerArea,
-  .footerArea {
-    width: 100%;
-  }
-}
